@@ -1,0 +1,186 @@
+@charset "ISO-8859-1";
+body {
+    background: #4cbb17;
+    box-sizing: border-box;
+}
+
+.container {
+    padding:0.01em 16px;
+}
+
+.milestone-container{
+    height: 400px;
+    background: #ffffff;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    float: right;
+    overflow-y: auto;
+}
+
+.project-container {
+    height: 400px;
+    background: #ffffff;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 65%;
+    float: left;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.boldLabel{
+    font-weight: bold;
+}
+
+.buttonAdd {
+    background-color: #9c27b0;
+    border-right-color: darkgrey;
+    -moz-border-right-colors: darkgrey;
+    border-bottom-color: darkgrey;
+    -moz-border-bottom-colors: darkgrey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.buttonDelete {
+    background-color: #FF0000;
+    border-right-color: darkgrey;
+    -moz-border-right-colors: darkgrey;
+    border-bottom-color: darkgrey;
+    -moz-border-bottom-colors: darkgrey;
+    color: white;
+    padding: 15px 32px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.buttonIndex{
+    background-color: #444444;
+    border-right-color: darkgrey;
+    -moz-border-right-colors: darkgrey;
+    border-bottom-color: darkgrey;
+    -moz-border-bottom-colors: darkgrey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.buttonMoreInfo{
+    background-color: #00FF00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.buttonMilestone{
+    background-color: #A0A0A0;
+    border-right-color: darkgrey;
+    -moz-border-right-colors: darkgrey;
+    border-bottom-color: darkgrey;
+    -moz-border-bottom-colors: darkgrey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.buttonUpdate {
+    background-color: #0000FF;
+    border-right-color: darkgrey;
+    -moz-border-right-colors: darkgrey;
+    border-bottom-color: darkgrey;
+    -moz-border-bottom-colors: darkgrey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.dateContainerLeft{
+    float: left;
+    margin-right: 60px;
+}
+
+#label{
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+#beinput{
+
+    border: solid;
+    border-color: gainsboro;
+    border-radius: 8px;
+}
+
+#beinputmDesc{
+    border: solid;
+    border-color: gainsboro;
+    border-radius: 8px;
+    width: 575px;
+    height: 20px;
+}
+
+#fields{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#fields > label{
+    display:inline-block;
+    width:150px;
+    font-weight:bold;
+    vertical-align:top;
+}
+
+#fields > span {
+    display: inline-block;
+}
+
+.mDate {
+    font-weight: bold;
+}
+
+#textCounter{
+    background: #4cbb17;
+    border: none;
+    margin-right: 2px;
+    padding-right: 0;
+}
+
+h4{
+    margin-bottom:4px;
+}
+
+
+
+
+
